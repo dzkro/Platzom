@@ -1,0 +1,28 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma platzom, idioma inventado",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src\\platzom.js -d dist",
+	"test": "mocha test\\test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzkro/Platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "js",
+    "fundamentos",
+    "javascript"
+  ],
+  "author": "Dzkro <jose.alberto.moliner@gmail.com> (https://twitter.com/dzkro)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1"
+  }
+}
